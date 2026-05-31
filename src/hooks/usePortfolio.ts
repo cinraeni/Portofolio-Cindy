@@ -63,32 +63,32 @@ const staticCertificates = [
   {
     id: 'cert-msib',
     title: 'MSIB Batch 7 — Android Mobile Development & UI/UX Design (Infinite Learning, 2024)',
-    image_url: '',
+    image_url: '/assets/sertifikat/Sertifikat MSIB_Batch 7 - Android Mobile Development & UIUX Design, 2024_page-0001.jpg',
   },
   {
     id: 'cert-internship',
     title: 'Certificate of Internship — Android Mobile Development & UI/UX Design (Infinite Learning, 2024)',
-    image_url: '',
+    image_url: '/assets/sertifikat/Sertifikat Internship - Android Mobile Development & UIUX Design, 2024_page-0001.jpg',
   },
   {
     id: 'cert-studi-independen',
     title: 'Sertifikat Kepesertaan — Studi Independen Bersertifikat Angkatan 7 (PT Kinema Systrans Multimedia, 2024)',
-    image_url: '',
+    image_url: '/assets/sertifikat/Sertifikat Kepersertaan MSIB_Studi Independen, 2024_page-0001.jpg',
   },
   {
     id: 'cert-juara1',
     title: 'Juara 1 Kategori Aplikasi WEB & Mobile — PBL Expo Polibatam 2024',
-    image_url: '',
+    image_url: '/assets/sertifikat/Sertifikat Juara 1 Kategori Aplikasi WEB dan Mobile - Project Based Learning Expo Polibatam, 2024_page-0001.jpg',
   },
   {
     id: 'cert-bnsp',
     title: 'Sertifikat BNSP — Kompetensi Kualifikasi KKNI Level II Teknik Komputer dan Jaringan',
-    image_url: '',
+    image_url: '/assets/sertifikat/Sertifikat BNSP - Kompetensi Kualifikasi KKNI LEVEL II TEKNIK KOMPUTER DAN JARINGAN_page-0001.jpg',
   },
   {
     id: 'cert-pkl',
     title: 'Sertifikat Praktik Kerja Lapangan — Dinas Sosial Kota Tanjungpinang (2021)',
-    image_url: '',
+    image_url: '/assets/sertifikat/Sertifikat_PKL_Dinas Sosial Kota Tanjungpinang, 2021_page-0001.jpg',
   },
 ]
 

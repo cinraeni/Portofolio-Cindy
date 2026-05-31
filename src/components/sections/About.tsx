@@ -228,8 +228,7 @@ export default function About() {
                 width: "fit-content",
               }}
             >
-              “Merancang antarmuka yang intuitif dan membangun pengalaman
-              digital yang bermakna.”
+              “Membangun pengalaman digital merancang antarmuka yang intuitif dan user-friendly.”
             </motion.div>
 
             {/* BUTTONS */}

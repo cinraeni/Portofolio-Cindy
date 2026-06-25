@@ -116,10 +116,6 @@ export default function usePortfolio() {
 
   const [loading, setLoading] = useState(false)
 
-  useEffect(() => {
-    loadPortfolio()
-  }, [])
-
   const loadPortfolio = async () => {
     try {
       const [
@@ -148,6 +144,10 @@ export default function usePortfolio() {
 
     setLoading(false)
   }
+
+  useEffect(() => {
+    loadPortfolio()
+  }, [])
 
   return {
     projects,

@@ -14,6 +14,7 @@ export default function Navbar() {
   const [showNavbar, setShowNavbar] = useState(false)
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     setMounted(true)
 
     const handleResize = () => {
@@ -55,6 +56,7 @@ export default function Navbar() {
     const navbarPlayed = sessionStorage.getItem('navbarPlayed')
 
     if (navbarPlayed) {
+      // eslint-disable-next-line react-hooks/exhaustive-deps
       setShowNavbar(true)
       return
     }

@@ -13,6 +13,15 @@ export default function useComments() {
   const [comments, setComments] = useState<any[]>([])
   const [loading, setLoading] = useState(false)
 
+  const fetchInitialComments = async () => {
+    try {
+      const data = await fetchCommentsService()
+      setComments(data)
+    } catch (err) {
+      console.log(err)
+    }
+  }
+
   useEffect(() => {
     fetchInitialComments()
 
@@ -36,15 +45,6 @@ export default function useComments() {
       supabase.removeChannel(channel)
     }
   }, [])
-
-  const fetchInitialComments = async () => {
-    try {
-      const data = await fetchCommentsService()
-      setComments(data)
-    } catch (err) {
-      console.log(err)
-    }
-  }
 
   const addComment = async ({
     name,

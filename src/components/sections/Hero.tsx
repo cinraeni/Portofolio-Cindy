@@ -163,7 +163,7 @@ export default function Hero({ showApp }: HeroProps) {
             }}
           >
             <TextType
-              text={["D4 TRPL Student", "Front-End Developer", "UI/UX Designer", "Politeknik Negeri Batam"]}
+              text={["D4 TRPL Student", "UI/UX Designer", "Front-End Developer", "Politeknik Negeri Batam"]}
               typingSpeed={75}
               pauseDuration={1500}
               showCursor
@@ -199,7 +199,7 @@ export default function Hero({ showApp }: HeroProps) {
             }}
           >
             Mahasiswa D4 Teknologi Rekayasa Perangkat Lunak di Politeknik Negeri
-            Batam dengan passion di bidang Front-End Development dan UI/UX Design.
+            Batam dengan passion di bidang UI/UX Design dan Front-End Development.
             Mengubah ide dan desain menjadi pengalaman digital yang menarik.
           </p>
         </motion.div>

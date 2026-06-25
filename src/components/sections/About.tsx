@@ -198,9 +198,7 @@ export default function About() {
             >
               Mahasiswa semester 6 D4 Teknologi Rekayasa Perangkat Lunak di
               Politeknik Negeri Batam dengan minat pada Front-End Development,
-              Web Development, dan Mobile Development. Berpengalaman mengerjakan
-              proyek berbasis tim melalui pendekatan Project-Based Learning.
-              IPK: 3.85 / 4.00
+              proyek berbasis tim melalui pendekatan Project-Based Learning. IPK: 3.85 / 4.00
             </motion.p>
 
             {/* QUOTE */}
